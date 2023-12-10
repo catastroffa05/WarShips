@@ -320,7 +320,8 @@ char * fire()
     printf("букву- ");
     scanf("%c", &coordinat2);
     while(getchar() != '\n');
-    
+    upperChar();
+  
     char ch1 = playerField1[workCoordinat()];
     char ch2 = playerField2[workCoordinat()];
     int ShipORno1 = 0;
